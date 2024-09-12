@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl" class="dark scroll-smooth">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./blog.html">
+  <link rel="stylesheet" href="./node_modules/animate.css/animate.min.css" tayp="text.css">
+  <link rel="stylesheet" href="./public/css/main.css" type="text/css ">
+  <title>Document</title>
+</head>
+
+<body  class="min-h-[8190px] bg-[#ffffff] dark:bg-[#282828]  dark:text-emerald-50 ">
+  <div 
+    class="desktop:h-[100px] mobail:h-[180px] bg-[#252525] flex w-[fit] desktop::flex-row mobail:flex-col  gap-x-12  sticky top-0 z-[999999999999999999999999999999999999]">
+    <div class=" desktop:translate-y-[40%] desktop:-translate-x-[90px]  justify-center mobail:flex
+  desktop:w-fit mobail:w-full h-full   desktop:block mobail:mt-[4px] 
+   ">
+
+      <img src="./img/logo-fr.png" alt="">
+    </div>
+
+
+    <button id="btn"
+      class=" mt-[-30px]  hover:text-white text-stone-400 desktop:hidden mobail:flex mr-[29px]">dark</button>
+
+    <div
+      class="desktop:hidden mobail:w-[50px] mobail:h-[50px] mobail:mr-6 mobail:mt-[25px] mobail:font-extrabold peer h-full  ">
+
+      <svg width="40px" height="40px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg ">
+        <path d="M4 18L20 18" stroke="rgb(233, 233, 233)" stroke-width="2.5" stroke-linecap="round" />
+        <path d="M4 12L20 12" stroke="rgb(233, 233, 233)" stroke-width="2.5" stroke-linecap="round" />
+        <path d="M4 6L20 6" stroke="rgb(233, 233, 233)" stroke-width="2.5" stroke-linecap="round" />
+      </svg>
+    </div>
+
+    <nav
+      class="bg-[#252525] mobail:overflow-hidden mobail:h-0  desktop:h-auto desktop:overflow-visible  flex  mobail:w-full mobail:flex-col desktop:flex-row desktop:w-fit  gap-x-5 mobail:px-7 mobail:gap-6  desktop:translate-x-[-280px] desktop:translate-y-[-65px] peer-hover:h-[700px] peer-hover:overflow-visible  mobail:z-10   ">
+
+      <div
+        class="w-fit h-full desktop:text-stone-200 mobail:text-stone-400 mobail:hover:text-white desktop: hover:text-white   transition  ">
+        <a class="desktop:size-4 mobail:size-[14px]   " href="">صفحه اصلی</a>
+      </div>
+      <span class="w-px h-[30px] bg-slate-400/[0.5] mobail:hidden desktop:inline "></span>
+      <div class="w-fit h-full text-stone-400 hover:text-white "><a class="desktop:size-4 mobail:size-[14px]"
+          href="">شرگت گلستان</a></div>
+      <span class="w-px h-[30px] bg-slate-400/[0.5] mobail:hidden desktop:inline "></span>
+
+      <div class="w-fit h-full text-stone-400 hover:text-white "><a class="desktop:size-4 mobail:size-[14px]"
+          href="">محصولات</a></div>
+      <span class="w-px h-[30px] bg-slate-400/[0.5] mobail:hidden desktop:inline "></span>
+
+      <div class=" w-fit h-full text-stone-400 hover:text-white "><a class="desktop:size-4 mobail:size-[14px]"
+          href="blog.html">وبلاگ</a></div>
+      <span class="w-px h-[30px] bg-slate-400/[0.5] mobail:hidden desktop:inline "></span>
+
+      <div class="w-fit h-full text-stone-400 hover:text-white "><a class="desktop:size-4 mobail:size-[14px]"
+          href="">قرعه کشی</a></div>
+      <span class="w-px h-[30px] bg-slate-400/[0.5] mobail:hidden desktop:inline "></span>
+
+      <div class="w-fit h-full text-stone-400 hover:text-white "><a class="desktop:size-4 mobail:size-[14px]"
+          href="">استخدام</a></div>
+      <span class="w-px h-[30px] bg-slate-400/[0.5] mobail:hidden desktop:inline "></span>
+
+      <div class="w-fit h-full text-stone-400 hover:text-white "><a class="desktop:size-4 mobail:size-[14px]"
+          href="">تماس با ما</a></div>
+      <span class="w-px h-[30px] bg-slate-400 mobail:hidden desktop:inline "></span>
+
+      <div class="w-fit h-full text-stone-400 hover:text-white mobail:inline desktop:inline"><a
+          class="desktop:size-4 mobail:size-[14px]" href="">en
+        </a></div>
+      <button id="btnn" class=" mt-[-5px]  hover:text-white text-stone-400">dark</button>
+
+
+    </nav>
+  </div>
+  <div class="desktop:h-[460px] mobail:w-full mobail:h-full mobail:flex-row desktop:flex  bg-[#F2F2F2]">
+    <div class="desktop:w-[717px] desktop:h-[460px] mobail:h-[260px]  bg-[#f2f2f2]">
+      <p class="text-[#ff1c1c] text-[30px] desktop:mr-[150px] desktop:mt-[80px] mobail:mr-[26px] mobail:p-4 ">قرعه‌کشی
+        ماهیانه
+        گلستان</p>
+      <p
+        class="text-[#58595B] text-[20px] desktop:mr-[150px] desktop:mt-[10px] mobail:mr-[40px] mobail:w-fit mobail:mt-[0px]">
+        قرعه‌کشی ماهیانه مصرف‌کنندگان چای
+        گلستان</p>
+      <p
+        class="text-[#898989] indent-3  desktop:h-[125px] desktop:w-[450px] desktop:mr-[150px] desktop:text-right desktop:mt-[15px] mobail:w-fit mobail:h-fit mobail:mr-[40px] mobail:text-right mobail:mt-[10px] leading-8 animate__animated animate__fadeInDown animate__slow	">
+        هر یک از مصرف‌کنندگان محصولات چای گلستان می‌توانند با ارسال کد
+        قرعه کشی روی بسته به شماره 30007405 در قرعه کشی‌های ماهیانه
+        سال 1403شرکت کنند. نگهداری از بسته‌بندی محصول برای اهدای جایزه
+        الزامی است.
+      </p>
+      <button class="bg-white h-[40px] w-[134px] rounded-lg text-[#7c7d7e] desktop:mr-[150px] desktop:mt-[30px] hover:bg-red-700 hover:text-white transition-all mobail:mr-[40px] mobail:mt-[30px] border-[1px] 
+        border-[#2b2b2b3a]">اطلاعات
+        بیشتر</button>
+
+
+    </div>
+    <div class=" desktop:w-[560px] desktop:h-[460px] mobail:h-[430px]  bg-[#f2f2f2]">
+      <img
+        class="desktop:mt-[30px] desktop:mr-[40px] mobail:mr-[90px] mobail:pt-[40px] animate__animated animate__fadeInDown animate__slow	 "
+        src="./img/tea-pic1.png" alt="">
+    </div>
+
+  </div>
+  <div
+    class="desktop:w-[97%] mx-auto desktop:h-[1px] bg-[#00000027] dark:bg-slate-300 desktop:mt-[20px] mobail:hidden desktop:flex">
+  </div>
+
+
+  <div
+    class=" desktop:h-[700px] desktop:w-[100%px] desktop:mt-[66px]    justify-center mobail:p-2 mobail:mt-[60px] mobail:justify-center mobail:w-fit  mobail:h-fit">
+
+    <div class="  desktop:h-46 desktop:mr-[260px] mobail:h-[350px]">
+      <h3 class="text-[20px] text-[#ff0000] mr-[15px]   desktop:p-4 desktop:mr-[-4px]">معرفی گلستان</h3>
+
+      <h2
+        class="text-[#7a7a7a] desktop:text-[16px] mobail:text-[15px] dark:text-gray-50  leading-9 desktop:h-[180px] mobail:h-fit mobail:w-fit  mobail:mr-[10px] desktop:w-[685px]  animate__animated animate__fadeInRight animate__fast	">
+        آنچه که امروز با نام مجموعه <span class="text-red-700">گلستان</span> می‌شناسیم در سال 1329 بنیان نهاده شد. زمانی
+        که شرکت گلستان فعالیت خود را با بسته‌بندی و توزیع چای پاکتی آغاز کرد. با گذر زمان و رشد اقتصاد کشور، نهال
+        «گلستان»
+        به تدریج تقویت شد و شاخ و برگ گرفت. فعالیت‌های «گلستان» با تهیه، تولید و بسته‌بندی بهترین محصولات غذایی گسترش
+        پیدا
+        کرد. <span class="text-red-700">گلستان</span> پس از سال‌ها تلاش همچنان می‌کوشد تا به کمک تجربه‌های اندوخته شده
+        در
+        این سال‌ها کالاهایی قابل اعتماد و با کیفیت تولید نماید.</h2>
+
+      <div class=" desktop:w-[100%] desktop:h-[120px]">
+        <h2
+          class="text-[#7a7a7a] desktop:text-[16px] mobail:text-[15px] leading-9 desktop:h-[96px]  desktop:w-[685px] mobail:h-fit mobail:w-fit justify-center mobail:mr-[15px] desktop:mt-[40px] mobail:mt-[60px]   dark:text-gray-50 animate__animated animate__fadeInRight animate__fast ">
+
+          هدفمندی و برنامه‌ریزی موثر، ایمان و عزم راسخ برای دستیابی به اهداف تعیین شده، به کار گیری همکاران مجرب و
+          دلسوز،
+          استفاده از روش های نوین بازاریابی و مشتری محوری از جمله عوامل مهم در استراتژی <span class="text-red-700">شرکت
+            گلستان </span> است.
+        </h2>
+
+      </div>
+      <div class="desktop:w-[100%] desktop:h-60  mobail:h-[200px] mobail:mt-[80px] ">
+        <h3
+          class="text-[20px] text-[#ff0000] mr-[px] desktop:mt-[-40px] mobail:mt-[10px] mobail:p-[20px] animate__animated animate__fadeInRight animate__fast">
+          محصولات
+          گلستان</h3>
+
+        <h2
+          class="text-[#7a7a7a] desktop:text-[16px] mobail:text-[15px] leading-9 desktop:h-[96px] mobail:h-[140px] mobail:w-fit  mobail:mr-[15px] desktop:w-[700px]  dark:text-gray-50 animate__animated animate__fadeInRight animate__fast">
+          <span class="text-red-700">نام تجاری گلستان
+          </span>
+          قدمتی به اندازه عمر شرکت گلستان دارد. گلستان ممتازترین محصولات خود را با این نام تجاری عرضه می‌کند.
+          مصرف‌کنندگان
+          محصولات گلستان همواره از این نام تجاری خاطره محصولاتی ممتاز و منحصر بفرد دارند و با اطمینان از نهایت کیفیت این
+          نام
+          تجاری حمایت می‌کنند.
+        </h2>
+
+
+      </div>
+
+
+    </div>
+
+
+
+  </div>
+
+  <div
+    class="flex  desktop:w-[100%] desktop:h-[300px] desktop:flex-row justify-center p-3 mobail:hidden desktop:flex mobail:h-[0px] mobail:w-[0px] animate__animated animate__zoomIn animate__slow animate__repeat-1	 ">
+
+    <div class="desktop:w-[210px] desktop:h-[252px]  ">
+      <div class="desktop:w-[186px] desktop:h-[186px]   justify-center flex"> <img src="./img/1.png" alt=""></div>
+      <p class="desktop:h-[45px] desktop:mr-[40px] desktop:mt-[20px] text-[#7a7a7a] ">سرمایه انسانی</p>
+      <div class="desktop:w-[186px] desktop:h-[1px] bg-[#d0cfcfcc] desktop:mt[30px]"></div>
+
+
+    </div>
+    <div class="desktop:w-[210px] desktop:h-[252px] ">
+      <div class="desktop:w-[186px] desktop:h-[186px] "><img src="./img/2.png" alt=""></div>
+      <p class="desktop:h-[45px] desktop:mr-[40px] desktop:mt-[20px] text-[#7a7a7a]">مراکز فروش</p>
+      <div class="desktop:w-[186px] desktop:h-[1px]  bg-[#d0cfcfcc] desktop:mt[30px]"></div>
+
+    </div>
+    <div class="desktop:w-[210px] desktop:h-[252px] ">
+      <div class="desktop:w-[186px] desktop:h-[186px] "><img src="./img/3.png" alt=""></div>
+      <p class="desktop:h-[45px] desktop:mr-[40px] desktop:mt-[20px] text-[#7a7a7a] ">محصولات گلستان</p>
+      <div class="desktop:w-[186px] desktop:h-[1px] bg-[#d0cfcfcc] desktop:mt[30px]"></div>
+
+    </div>
+    <div class="desktop:w-[210px] desktop:h-[252px] ">
+      <div class="desktop:w-[186px] desktop:h-[186px] "><img src="./img/4.png" alt=""></div>
+      <p class="desktop:h-[45px] desktop:mr-[40px] desktop:mt-[20px] text-[#7a7a7a]">مشتریان گلستان</p>
+      <div class="desktop:w-[186px] desktop:h-[1px] bg-[#d0cfcfcc] desktop:mt[30px]"></div>
+
+
+    </div>
+
+  </div>
+  <div class="w-[95%] mx-auto h-[2px] bg-[#2b2b2b21] desktop:mt-[30px]  dark:bg-gray-50  mobail:mt-[440px]"></div>
+  <div class="desktop:w-full desktop:h-[2px]  bg-[#2b2b2b21]  desktop:mt-[30px] mobail:hidden desktop:flex"></div>
+
+
+
+
+  <img class=" desktop:mt-[0px] mobail:mt-[30px] h-full" src="./img/برنج.jpg" alt="">
+  </div>
+  <div class="mobail:w-full mobail:h-[90px] mobail:bg-[#ed1c24] mobail:absolute  desktop:hidden">
+    <p class="mobail:text-[29px] mobail:text-white  mobail:p-[10px] mobail:mr-[15px] desktop:hidden">برنج گلستان</p>
+    <p class="mobail:text-white  mobail:text-[16px] mobail:mr-[20px] desktop:hidden">معرفی محصول</p>
+
+  </div>
+
+  <div class="w-full desktop:h-[20px] bg-[#e9d69f] mobail:hidden desktop:flex ">
+    <div
+      class="desktop:w-[298px] desktop:h-[97px] desktop:bg-[#ED1C24] desktop:mr-[280px]  desktop:mt-[-77px] desktop:mb-[-30px] desktop:absolute  ">
+      <p class="desktop:text-[29px] text-white desktop:mr-[30px] p-[10px]">برنج گلستان</p>
+      <p class="text-white  text-[16px] desktop:mr-[37px]">معرفی محصول</p>
+    </div>
+  </div>
+  <div class="w-[95%] mx-auto h-[2px] bg-[#2b2b2b21] desktop:mt-[30px]  dark:bg-gray-50  mobail:mt-[40px]"></div>
+
+  <div class="desktop:h-[500px]">
+    <div class="  desktop:h-[144px] desktop:mr-[260px]  mobail:mt-[100px] desktop:mt-[30px]">
+      <h3 class="text-[20px] text-[#ff0000] mr-[15px] h-[50px] desktop:mt-[70px] desktop:font-bold  flex">رکن اول غذای
+        ایرانی</h3>
+
+      <h2
+        class="text-[#7a7a7a] desktop:text-[16px] mobail:text-[15px]  leading-9 desktop:h-[144px] mobail:h-fit mobail:w-fit  mobail:mr-[10px] desktop:w-[690px]   dark:text-gray-50 ">
+        مرغوب‌ترین برنج دنیا، برنج ایران است و بهترین نوع برنج ایرانی،‌ طارم و هاشمی. این برنج‌ها از بهترین شالیزارهای
+        مازندران برداشت شده، پس از كنترل كیفیت در آزمایشگاه‌های تخصصی گلستان وارد چرخه بسته‌بندی و در وزن‌های مختلف به
+        بازار عرضه می‌شوند. عطر و طعم بی‌نظیر برنج گلستان با هیچ برنج دیگری قابل مقایسه نیست. با گلستان،‌ كیفیت زندگی
+        بالاتر از همیشه است چرا كه مشتریان گلستان؛‌ لایق بهترین‌ها هستند. </h2>
+    </div>
+
+    <button class="bg-slate-50 h-[40px] w-[147px] rounded-lg text-[#7c7d7e] desktop:mr-[260px] desktop:mt-[100px] hover:bg-red-700 hover:text-white transition-all mobail:mr-[20px] dark:border-red-600 dark:border-2 mobail:mt-[40px] flex-row border-[1px] 
+      border-[#2b2b2b3a]">
+      محصولات برنج</button>
+    <button class="bg-slate-50 h-[40px] w-[147px] rounded-lg text-[#7c7d7e] desktop:mr-[0px] desktop:mt-[100px] hover:bg-red-700 hover:text-white transition-all mobail:mr-[0px] mobail:mt-[40px] flex-row  border-[1px] 
+      border-[#2b2b2b3a] dark:border-red-600 dark:border-2
+      
+      ">اشپزخانه
+      گلستان</button>
+    <img class="mobail:mt-[90px] desktop:mt-[90px]" src="./img/لیوان.jpg" alt="">
+  </div>
+  <div class="mobail:w-full mobail:h-[90px] mobail:bg-[#ed1c24] mobail:absolute  desktop:hidden">
+    <p class="mobail:text-[29px] mobail:text-white  mobail:p-[10px] mobail:mr-[15px] desktop:hidden">چای گلستان</p>
+    <p class="mobail:text-white  mobail:text-[16px] mobail:mr-[20px] desktop:hidden">معرفی محصول</p>
+
+  </div>
+
+  <div class="w-full desktop:h-[20px] desktop:mt-[370px] bg-[#e9d69f] mobail:hidden desktop:flex ">
+    <div
+      class="desktop:w-[298px] desktop:h-[97px] desktop:bg-[#ED1C24] desktop:mr-[280px]  desktop:mt-[-77px] desktop:mb-[-30px] desktop:absolute  ">
+      <p class="desktop:text-[29px] text-white desktop:mr-[30px] p-[10px]">چای گلستان</p>
+      <p class="text-white  text-[16px] desktop:mr-[37px]">معرفی محصول</p>
+    </div>
+  </div>
+  <div class="desktop:w-full desktop:h-[2px] bg-[#2b2b2b21] desktop:mt-[20px] flex  "></div>
+
+  <div class="w-full h-fit ">
+
+    <div class="  desktop:h-46 desktop:mr-[260px] mobail:mt-[130px] mobail:h-[350px] desktop:mt-[25px]">
+      <h3 class="text-[20px] text-[#ff0000] mr-[15px] font-bold mobail:p-[20px]">سابقه‌ای به قدمت یک عمر
+      </h3>
+
+      <h2
+        class="text-[#7a7a7a] desktop:text-[16px] mobail:text-[15px]   leading-9 desktop:h-[50px] mobail:h-fit mobail:w-fit  mobail:mr-[10px] desktop:w-[680px]  dark:text-gray-50 ">
+        چای تنها یك نوشیدنی گرم نیست.‌ یک گفتمان است؛‌ گرمابخش وجود و بهانه‌ای برای آغاز یك معاشرت دل‌چسب بی‌دلیل نیست
+        كه نام «محبوب‌ترین نوشیدنی دنیا» را با خود یدک می‌كشد. نوشیدنش خستگی‌ها را فراری داده،‌ حس خوب آرامش را به همراه
+        دارد.
+
+        <div class=" desktop:w-[100%] desktop:h-[120px]">
+          <h2
+            class="text-[#7a7a7a] desktop:text-[16px] mobail:text-[15px] leading-9 desktop:h-[96px]  desktop:w-[685px]  mobail:w-fit justify-center mobail:mr-[0px] mt-[40px] mobail:h-[160px]  dark:text-gray-50">
+
+            برای مردمان ایران زمین نام <span class="text-red-700">گلستان</span> با چای پیوند خورده است؛‌ قدیمی‌ترین
+            محصول مجموعه گلستان،‌ با مدرن‌ترین و بهداشتی‌ترین دستگاه‌های روز دنیا تهیه و بسته‌بندی می‌شود. چیزی كه باعث
+            شده مشتریانش یك عمر به نام گلستان اعتماد كنند، كیفیت، ‌عطر و طعم به یادماندنی آن است.
+          </h2>
+          <button class="bg-slate-50 h-[40px] w-[134px] rounded-lg text-[#7c7d7e] desktop:mr-[0px] desktop:mt-[30px] hover:bg-red-700 hover:text-white transition-all mobail:mr-[0px] mobail:mt-[40px] flex-row  border-[1px] 
+      border-[#2b2b2b3a] dark:border-red-600 dark:border-2
+      
+      "> محصولات چایی</button>
+
+        </div>
+    </div>
+    <img class="mobail:mt-[190px] desktop:mt-[90px]" src="./img/پسته.jpg" alt="">
+  </div>
+  <div class="mobail:w-full mobail:h-[90px] mobail:bg-[#ed1c24] mobail:absolute  desktop:hidden">
+    <p class="mobail:text-[29px] mobail:text-white  mobail:p-[10px] mobail:mr-[15px] desktop:hidden">پسته گلستان</p>
+    <p class="mobail:text-white  mobail:text-[16px] mobail:mr-[20px] desktop:hidden">معرفی محصول</p>
+
+  </div>
+
+  <div class="w-full desktop:h-[20px] desktop:mt-[0px] bg-[#e9d69f] mobail:hidden desktop:flex ">
+    <div
+      class="desktop:w-[298px] desktop:h-[97px] desktop:bg-[#ED1C24] desktop:mr-[280px]  desktop:mt-[-77px] desktop:mb-[-30px] desktop:absolute  ">
+      <p class="desktop:text-[29px] text-white desktop:mr-[30px] p-[10px]">پسته گلستان</p>
+      <p class="text-white  text-[16px] desktop:mr-[37px]">معرفی محصول</p>
+    </div>
+  </div>
+  <div class="w-[100%] h-[390px] ">
+    <div class="  desktop:h-[380px]  desktop:mr-[260px] mobail:mt-[130px] mobail:h-[350px] desktop:mt-[25px]">
+      <h3 class="text-[20px] text-[#ff0000] mr-[15px] font-bold mobail:p-[20px]">آجيل‌های خوش خنده
+      </h3>
+
+      <h2
+        class="text-[#7a7a7a] desktop:text-[16px] mobail:text-[15px]   leading-9 desktop:h-[10px] mobail:h-fit mobail:w-fit  mobail:mr-[10px] desktop:w-[680px]   dark:text-gray-50">
+        خواص فوق‌العاده پسته بر كسی پوشیده نیست. پسته را منبع ویتامین و مواد معدنی می‌نامند، یك پمپ خون‌ساز قوی و تسكین
+        دهنده قلب و اعصاب.
+
+
+
+        <div class=" desktop:w-[100%] desktop:h-[120px]">
+          <h2
+            class="text-[#7a7a7a] desktop:text-[16px] mobail:text-[15px] leading-9 desktop:h-[96px]  desktop:w-[685px]  mobail:w-fit justify-center mobail:mr-[0px] mt-[40px] mobail:h-[160px]  dark:text-gray-50">
+            <span class="text-red-700">پسته گلستان</span> اما حسابش از دیگر پسته‌های بازار جداست. مرغوب‌ترین پسته خام از
+            بهترین باغ‌های پسته ایران دستچین می‌شود.‌ پس از كنترل كیفیت در آزمایشگاه و اطمینان از سلامت محصول،‌ با
+            زعفران درجه یک و نمک، بوداده و برشته شده و‌ پسته گلستان را با طعم و رنگ و عطری بی‌نظیر به ارمغان می‌آورد.
+
+
+          </h2>
+          <button class="bg-slate-50 h-[40px] w-[134px] rounded-lg text-[#7c7d7e] desktop:mr-[0px] desktop:mt-[30px] hover:bg-red-700 hover:text-white transition-all mobail:mr-[0px] mobail:mt-[60px] flex-row  border-[1px] 
+      border-[#2b2b2b3a] dark:border-red-600 dark:border-2
+      
+      "> ناتس گلستان
+
+          </button>
+        </div>
+    </div>
+
+    <div class="w-full h-[250px] bg-slate-500  flex "> <img class="w-[100%] h-[250px] font-bold bg-repeat container bg-cover bg-cover bg-fixed  z-[99]"
+        src="./img/recipe-baner-1.jpg" alt=""></div>
+
+
+    <h2 class="text-[22px] text-[#ff0000] font-bold mr-[70px] mt-[50px] w-[150px] h-[100px] leading-6">مجله گلستان</h2>
+
+
+    <div class="h-[800px] w-full bg-[CDE4B0] justify-center">
+
+      <div
+        class=" desktop:h-[772px] mobail:h-[1313px] desktop:w-full justify-center   desktop:flex mobail:block desktop:pt-14 mobail:pt-2 mobail:w-full desktop:pr-[8px] bg-[#CDE4B0] ">
+
+        <div
+          class=" w-[321px] h-[614px] desktop:mt-[12px] mobail:mt-[20px]  mobail:mx-auto shadow-neutral-400  shadow-md bg-white desktop:grid-flow-col mobail:grid-flow-row  desktop:m-3">
+          <div class="desktop:h-[309px] bg-slate-600 w-full"><img class="object-cover h-full w-full"
+              src="./img/lh;hvhkd.jpg" alt=""></div>
+          <div class="desktop:h-[296px] w-full ">
+            <h2 class="text-[20px] text-red-600 font-extralight p-5 desktop:mr-[10px]">ماکارونی با سبزیجات</h2>
+            <p
+              class="text-[14px] text-[#7a7a7a] dark:text-stone-500 desktop:h-[103px] justify-center desktop:mr-[30px] desktop:w-[276px] mobail:pr-[20px] mobail:w-[299px] mobail:h-[87px]">
+              ابتدا ماکارانی‌ها را در ظرفی‌ به‌ همراه‌ آب‌، روغن‌ مایع‌ و نمک‌ می‌ریزیم‌ تا کمی‌ بپزد. در این‌ حین‌
+              پیازها
+              را خرد کرده‌ و روی‌ روغن‌ تفت‌ می‌دهیم‌ تا طلایی‌ شود…</p>
+            <button class="bg-white h-[41px] w-[106px] rounded-lg text-[#7c7d7e] desktop:mr-[32px] desktop:mt-[30px] hover:bg-red-700 hover:text-white transition-all mobail:mr-[40px] mobail:mt-[30px] border-[1px] 
+        border-[#2b2b2b3a]">
+              ادامه مطلب</button>
+
+
+
+          </div>
+
+        </div>
+
+        <div
+          class=" w-[321px] h-[614px] desktop:mt-[12px] mobail:mt-[20px] bg-white shadow-neutral-400  shadow-md  mobail:mx-auto  desktop:grid-flow-col  mobail:grid-flow-row   desktop:m-3">
+          <div class="desktop:h-[309px] bg-slate-600 w-full"><img class="object-cover h-full w-full"
+              src="./img/chila.jpg" alt=""></div>
+          <div class="desktop:h-[296px] w-full ">
+            <h2 class="text-[20px] text-red-600 font-extralight desktop:p-5 mobail:p-[10px] desktop:mr-[10px]">ماکارونی
+              با سبزیجات</h2>
+            <p
+              class="text-[14px] text-[#7a7a7a] dark:text-stone-500 h-[103px] justify-center desktop:mr-[30px] w-[276px] mobail:pr-[20px]">
+              ابتدا ماکارانی‌ها را در ظرفی‌ به‌ همراه‌ آب‌، روغن‌ مایع‌ و نمک‌ می‌ریزیم‌ تا کمی‌ بپزد. در این‌ حین‌
+              پیازها
+              را خرد کرده‌ و روی‌ روغن‌ تفت‌ می‌دهیم‌ تا طلایی‌ شود…</p>
+            <button class="bg-white h-[41px] w-[106px] rounded-lg text-[#7c7d7e] desktop:mr-[32px] desktop:mt-[30px] hover:bg-red-700 hover:text-white transition-all mobail:mr-[40px] mobail:mt-[30px] border-[1px] 
+          border-[#2b2b2b3a]">
+              ادامه مطلب</button>
+
+          </div>
+
+
+        </div>
+        <div
+          class=" desktop:w-[321px] desktop:h-[614px] mt-[130px] bg-white shadow-neutral-400  shadow-md mobail:mx-auto desktop:grid-flow-col desktop:inline mobail:hidden   desktop:m-3">
+          <div class="desktop:h-[309px] bg-slate-600 w-full"><img class="object-cover h-full w-full"
+              src="./img/sabzi.jpg" alt=""></div>
+          <div class="desktop:h-[296px] w-full ">
+            <h2 class="text-[20px] text-red-600 font-extralight p-5 desktop:mr-[10px]">ماکارونی با سبزیجات</h2>
+            <p
+              class="text-[14px] text-[#7a7a7a] dark:text-stone-500 h-[103px] justify-center desktop:mr-[30px] w-[276px]">
+              ابتدا ماکارانی‌ها را در ظرفی‌ به‌ همراه‌ آب‌، روغن‌ مایع‌ و نمک‌ می‌ریزیم‌ تا کمی‌ بپزد. در این‌ حین‌
+              پیازها
+              را خرد کرده‌ و روی‌ روغن‌ تفت‌ می‌دهیم‌ تا طلایی‌ شود…</p>
+            <button class="bg-white h-[41px] w-[106px] rounded-lg text-[#7c7d7e] desktop:mr-[32px] desktop:mt-[30px] hover:bg-red-700 hover:text-white transition-all mobail:mr-[40px] mobail:mt-[30px] border-[1px] 
+        border-[#2b2b2b3a]">
+              ادامه مطلب</button>
+
+          </div>
+
+        </div>
+      </div>
+
+      <div class="h-[551px] w-full bg-red-500 mobail:flex-row esktop:flex-col">
+
+
+        <div class="w-full desktop:h-[550px] mobail:h-[990px] bg-white  mt-[1px] mobail:flex-row desktop::flex-col ">
+          <div
+            class="desktop:h-[450px] w-full mobail:h-[990px] bg-white  desktop:flex  mobail:mt-[0px]  desktop:mt-[0px] mobail:flex-row desktop::flex-col ">
+
+            <div
+              class="h-[450px] w-[317px] bg-white border shadow-xl justify-center desktop:mr-[120px] mobail:mr-[80px]  desktop:mt-[50px] mobail:mt-[0px]">
+              <div class="h-[180px] w-full mobail:mt-3 desktop:mt-0 bg-teal-950">
+
+                <div class="h_iframe-aparat_embed_frame"><span style="display: block;padding-top: 57%"></span><iframe
+                    src="https://www.aparat.com/video/video/embed/videohash/x4047ld/vt/frame" allowFullScreen="true"
+                    webkitallowfullscreen="true" mozallowfullscreen="true"></iframe></div>
+              </div>
+              <h1 class="text-red-600 text-[16px] font-bold p-4 ">سالاد نودل</h1>
+              <p class=" h-[96px] w-[280px] mr-[16px] text-[#7a7a7a] text-[14px]">نودل هاتی کارا یك میان‌وعده‌ی مغذی، در
+                هر موقعیتی كه باشید با كمی
+                آب جوش و یك نودل هاتی‌كارا می‌توانید از یك غذای سالم و خوشمزه لذت ببرید.</p>
+              <button class="bg-slate-50 h-[40px] w-[147px] rounded-lg text-[#7c7d7e] desktop:mr-[16px] desktop:mt-[px] hover:bg-red-700 hover:text-white transition-all mobail:mr-[10px] mobail:mt-[40px] flex-row  border-[1px] 
+border-[#2b2b2b3a] dark:border-red-600 dark:border-2
+
+">ویدیو های بیشتر</button>
+            </div>
+
+
+
+
+            <div
+              class="h-[450px] w-[317px] desktop:mt-[50px]  bg-white border shadow-xl justify-center desktop:mr-[20px] mobail:mr-[80px] mobail:flex-row esktop:flex-col mobail:mt-[40px]">
+              <div class="h-[180px]  bg-teal-950 ">
+                <iframe class="bg-cover w-full h-full"
+                  src="https://www.aparat.com/video/video/embed/videohash/u551866/vt/frame"></iframe>
+              </div>
+              <h1 class="text-red-600 text-[16px] font-bold p-4 ">سالاد نودل</h1>
+              <p class=" h-[96px] w-[280px] mr-[16px] text-[#7a7a7a] text-[14px]">نودل هاتی کارا یك میان‌وعده‌ی مغذی، در
+                هر موقعیتی كه باشید با كمی
+                آب جوش و یك نودل هاتی‌كارا می‌توانید از یك غذای سالم و خوشمزه لذت ببرید.</p>
+              <button class="bg-slate-50 h-[40px] w-[147px] rounded-lg text-[#7c7d7e] desktop:mr-[16px] desktop:mt-[px] hover:bg-red-700 hover:text-white transition-all mobail:mr-[10px] mobail:mt-[40px] flex-row  border-[1px] 
+border-[#2b2b2b3a] dark:border-red-600 dark:border-2
+
+">ویدیو های بیشتر</button>
+
+
+
+
+
+
+            </div>
+
+            <div
+              class="h-[450px] w-[317px] desktop:mt-[50px] mobail:mt-[0px] bg-white border shadow-xl justify-center mr-[20px] mobail:hidden desktop:inline">
+              <div class="h-[180px]  bg-teal-950">
+                <style>
+                  .h_iframe-aparat_embed_frame {
+                    position: relative;
+                  }
+
+                  .h_iframe-aparat_embed_frame .ratio {
+                    display: block;
+                    width: 100%;
+                    height: auto;
+                  }
+
+                  .h_iframe-aparat_embed_frame iframe {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                  }
+                </style>
+                <div class="h_iframe-aparat_embed_frame"><span style="display: block;padding-top: 57%"></span><iframe
+                    src="https://www.aparat.com/video/video/embed/videohash/cQ0yF/vt/frame" allowFullScreen="true"
+                    webkitallowfullscreen="true" mozallowfullscreen="true"></iframe></div>
+              </div>
+              <h1 class="text-red-600 text-[16px] font-bold p-4 ">سالاد نودل</h1>
+              <p class=" h-[96px] w-[280px] mr-[16px] text-[#7a7a7a] text-[14px]">نودل هاتی کارا یك میان‌وعده‌ی مغذی، در
+                هر موقعیتی كه باشید با كمی
+                آب جوش و یك نودل هاتی‌كارا می‌توانید از یك غذای سالم و خوشمزه لذت ببرید.</p>
+              <button class="bg-slate-50 h-[40px] w-[147px] rounded-lg text-[#7c7d7e] desktop:mr-[16px] desktop:mt-[px] hover:bg-red-700 hover:text-white transition-all mobail:mr-[0px] mobail:mt-[40px] flex-row  border-[1px] 
+border-[#2b2b2b3a] dark:border-red-600 dark:border-2
+
+">ویدیو های بیشتر</button>
+
+
+            </div>
+          </div>
+        </div>
+
+        <div class="w-full h-[600px] bg-[#105153] flex">
+          <div class="w-full h-[60px] pt-[250px]">
+            <p class=" text-center mb-[195px] text-[18px] font-thin leading-8">مسئوليت‌های اجتماعی شركت گلستان
+            </p>
+            <div class="w-full h-[1px] mt-[-180px]"></div>
+            <div class="w-[100%] h-[50px] flex">
+              <div class="w-[55%] h-[50px]  ">
+                <p
+                  class="  desktop:ml-[30px] mobail:text-end desktop:text-end mobail:mt-[5px] desktop:mt-[0px] mobail:p-1 desktop:p-[0px] text-[#00d8d0] font-normal text-[20px] pt-[px]">
+                  Social Responsibility</p>
+              </div>
+              <div class="w-[20%] h-[50px] desktop:mr-[-20px]  ">
+                <p class="p-[0px] desktop:mt-[-10px]  font-normal text-[30px] text-[#009da2]">Golestan </p>
+              </div>
+
+
+            </div>
+            <div class="w-full h-[50px]">
+              <p class="text-[#bcbec0] text-center text-[17px] font-thin">Mahdi Hospital</p>
+            </div>
+            <div class="h-[1px] w-full  justify-center mt-[0px]">
+            </div>
+            <div class=" w-fit h-[344px] mx-auto translate-y-3 mt-[0px]"><img
+                class="translate-y-3    bg-cover h-[344px] w-fit shadow-xl" src="./img/sakhtemon.jpg" alt=""></div>
+
+            <div class="w-full h-[20px] bg-[#e9d69f] mt-[-145px]"></div>
+            <div class="w-[95%] h-[2px] bg-[#dfe1e3] mt-[20px] mx-auto"></div>
+
+
+
+          </div>
+
+
+
+        </div>
+
+
+
+      </div>
+      <div class="w-full h-fit">
+        <div
+          class="desktop:h-[400px] mobail:h-[400px] w-full bg-white desktop:mt-[800px] mobail:mt-[1250px] mobail:pr-[20px]  desktop:pr-[0px]">
+          <div class="  desktop:h-46 desktop:mr-[260px] mobail:h-[350px]">
+            <h3 class="text-[20px] text-[#ff0000] mr-[15px]   desktop:p-4 desktop:mr-[-4px] leading-9">مسئوليت‌های
+              اجتماعی گلستان
+            </h3>
+
+            <h2
+              class="text-[#7a7a7a] desktop:text-[16px] mobail:text-[15px] dark:text-gray-700  leading-9 desktop:h-[180px] mobail:h-fit mobail:w-fit  mobail:mr-[10px] desktop:w-[680px]  ">
+              كسب‌وكارها اجزای قدرتمند جامعه به شمار می‌آیند و موفق‌ترین، قابل‌احترام‌ترین و مطلوب‌ترین كسب‌وكارها
+              آنهایی هستند كه كاری فراتر از درآمدزایی ایجاد كنند؛‌ آنهایی كه آمده‌اند تا از تجربه و امکاناتشان برای حل
+              مشكلات جامعه و محیط زندگی خود استفاده كنند. گلستان در فعالیت‌های‌ اجتماعی
+
+              خود،‌ گسترده وسیعی از فعالیت‌های عام‌المنفعه را در دستوركار خود قرار داده است.
+
+
+
+
+            </h2>
+            <button class="bg-slate-50 h-[40px] w-[147px] rounded-lg text-[#7c7d7e] desktop:mr-[0px] desktop:mt-[2px] hover:bg-red-700 hover:text-white transition-all mobail:mr-[0px] mobail:mt-[40px] flex-row  border-[1px] 
+                border-[#2b2b2b3a] dark:border-red-600 dark:border-2
+                
+                ">اطلاعات بیشتر
+            </button>
+
+
+          </div>
+        </div>
+
+        <div class="w-full h-[95px] bg-[#EEEFEF] mt-[0px] flex">
+          <div class="w-[80%] h-[95px] mx-auto flex justify-center items-center">
+            <img class="hover:bg-blue-400 transition-all rounded-[50%] bg-cover " src="./img/icon6.png" alt="">
+            <img class="hover:bg-blue-800 rounded-[50%] " src="./img/icon5.png" alt="">
+            <img class="hover:bg-red-600 rounded-[50%] " src="./img/icon4.png" alt="">
+            <img class="hover:bg-blue-600 rounded-[50%] " src="./img/icon3.png" alt="">
+            <img class="hover:bg-pink-600 rounded-[50%] " src="./img/icon2.png" alt="">
+            <img class="hover:bg-green-600 rounded-[50%] " src="./img/icon1.png" alt="">
+
+
+
+
+          </div>
+        </div>
+        <div class="w-full h-[30px] bg-red-600">
+        </div>
+
+        <div class="w-full desktop:h-[480px] mobail:h-full bg-[#2a2a2a] mobail:hidden desktop:flex ">
+
+          <div class=" desktop:h-[373px]  desktop:w-[760px]  mx-auto px-1 pt-4  grid desktop:grid-flow-col ">
+            <div class="desktop:h-[338px] desktop:w-[164px]  bg-[#2a2a2a] mx-auto  ">
+              <div class="w-fit h-fit "><img class=" desktop:mr-[20px] mobail:mr-[0px]" src="./img/footer-icon1.png"
+                  alt="">
+
+
+
+              </div>
+              <div class="desktop:w-[150px] desktop:h-[1px]  mt-[10px] bg-slate-300"></div>
+              <h2 class="p-[8px] text-center text-[16px] text-slate-50">چای گلستان</h2>
+              <div class="desktop:w-[150px] desktop:h-[1px]  mt-[10px] bg-slate-300"></div>
+              <p class="w-[122px] h-[138px] text-[13px] leading-9 pt-[10px] text-slate-50">
+
+                چای ممتاز هندوستان
+                چای ممتاز ارل گری
+                چای سيلان عطری​
+                چای ممتاز سيلان​
+                چای صبحانه گلستان​</p>
+
+            </div>
+            <div class="desktop:h-[338px] desktop:w-[164px]  bg-[#2a2a2a] mx-auto  ">
+              <div class="w-fit h-fit "><img class=" desktop:mr-[20px] mobail:mr-[0px]" src="./img/footer-icon2.png"
+                  alt="">
+
+
+
+              </div>
+              <div class="desktop:w-[150px] desktop:h-[1px]  mt-[10px] bg-slate-300"></div>
+              <h2 class="p-[8px] text-center text-[16px] text-slate-50">چای گلستان</h2>
+              <div class="desktop:w-[150px] desktop:h-[1px]  mt-[10px] bg-slate-300"></div>
+              <p class="w-[122px] h-[138px] text-[13px] leading-9 pt-[10px] text-slate-50">
+
+                چای ممتاز هندوستان
+                چای ممتاز ارل گری
+                چای سيلان عطری​
+                چای ممتاز سيلان​
+                چای صبحانه گلستان​</p>
+
+            </div>
+
+            <div class="desktop:h-[338px] desktop:w-[164px]  bg-[#2a2a2a] mx-auto  ">
+              <div class="w-fit h-fit "><img class=" desktop:mr-[20px] mobail:mr-[0px]" src="./img/footer-icon3.png"
+                  alt="">
+
+
+
+              </div>
+              <div class="desktop:w-[150px] desktop:h-[1px]  mt-[10px] bg-slate-300"></div>
+              <h2 class="p-[8px] text-center text-[16px] text-slate-50">چای گلستان</h2>
+              <div class="desktop:w-[150px] desktop:h-[1px]  mt-[10px] bg-slate-300"></div>
+              <p class="w-[122px] h-[138px] text-[13px] leading-9 pt-[10px]   text-slate-50">
+
+                چای ممتاز هندوستان
+                چای ممتاز ارل گری
+                چای سيلان عطری​
+                چای ممتاز سيلان​
+                چای صبحانه گلستان​</p>
+
+            </div>
+
+            <div class="desktop:h-[338px] desktop:w-[164px]  bg-[#2a2a2a] mx-auto  ">
+              <div class="w-fit h-fit "><img class=" desktop:mr-[20px] mobail:mr-[0px]" src="./img/footer-icon4.png"
+                  alt="">
+
+
+
+              </div>
+              <div class="desktop:w-[150px] desktop:h-[1px]  mt-[10px] bg-slate-300"></div>
+              <h2 class="p-[8px] text-center text-[16px] text-slate-50">چای گلستان</h2>
+              <div class="desktop:w-[150px] desktop:h-[1px]  mt-[10px] bg-slate-300"></div>
+              <p class="w-[122px] h-[138px] text-[13px] leading-9 pt-[10px] text-slate-50">
+
+                چای ممتاز هندوستان
+                چای ممتاز ارل گری
+                چای سيلان عطری​
+                چای ممتاز سيلان​
+                چای صبحانه گلستان​</p>
+
+            </div>
+
+
+
+          </div>
+
+        </div>
+        <div class="w-full h-[120px] bg-[#282828] desktop:inline mobail:hidden">
+          <div class="w-full h-[30px] bg-[#282828]">
+            <p
+              class="mobail:hidden desktop:flex mb-[30px] h-[20px] text-[#a9a8a8]  bg-[#282828] text-[15px] mr-[450px] w-fit mx-auto text-center ">
+              All Right Reserved Golestan
+              Company 2022-2025</p>
+            <div class="w-full h-full bg-[#282828]">
+              <p
+                class="mobail:hidden desktop:flex text-[14px] text-[#7b7b7b]  mr-[530px] mt-[-20px] w-fit h-full bg-[#282828]">
+                Design By: Golestan Studio
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+
+        <div class="mobail:w-full mobail:h-full bg-[#2a2a2a] mobail:inline desktop:hidden">
+          <div class=" mobail:w-full mobail:h-fit mx-auto px-1 pt-4  grid mobail:grid-flow-row bg-[#282828]">
+            <div><img class="mx-auto pb-[20px]" src="./img/footer-icon4.png" alt=""></div>
+            <div class="w-full h-[1px]  bg-[#4a4a4a] "></div>
+            <p class="text-center text-slate-50 p-[10px]">چای گلستان</p>
+            <div class="w-full h-[1px]  bg-[#4a4a4a]"></div>
+            <p class="w-[118px] h-[132px] text-[13px] leading-7 mx-auto pt-[10px] text-[#bcbec0]">
+              چای ممتاز هندوستان
+              چای ممتاز ارل گری​
+              چای سيلان عطری​
+              چای ممتاز سيلان​
+              چای صبحانه گلستان​
+            </p>
+
+
+
+
+
+          </div>
+          <div class=" mobail:w-full mobail:h-full mx-auto px-1 pt-4  grid mobail:grid-flow-row bg-[#282828]">
+            <div><img class="mx-auto pb-[20px]" src="./img/footer-icon3.png" alt=""></div>
+            <div class="w-full h-[1px]  bg-[#4a4a4a]"></div>
+            <p class="text-center text-slate-50 p-[10px]">چای گلستان</p>
+            <div class="w-full h-[1px]  bg-[#4a4a4a]"></div>
+            <p class="w-[118px] h-[132px] text-[13px] leading-7 mx-auto pt-[10px] text-[#bcbec0]">
+              چای ممتاز هندوستان
+              چای ممتاز ارل گری​
+              چای سيلان عطری​
+              چای ممتاز سيلان​
+              چای صبحانه گلستان​
+            </p>
+
+
+
+
+
+          </div>
+          <div class=" mobail:w-full mobail:h-fit mx-auto px-1 pt-4  grid mobail:grid-flow-row bg-[#282828]">
+            <div><img class="mx-auto pb-[20px]" src="./img/footer-icon2.png" alt=""></div>
+            <div class="w-full h-[1px]  bg-[#4a4a4a]"></div>
+            <p class="text-center text-slate-50 p-[10px]">چای گلستان</p>
+            <div class="w-full h-[1px]  bg-[#4a4a4a]"></div>
+            <p class="w-[118px] h-[132px] text-[13px] leading-7 mx-auto pt-[10px] text-[#bcbec0]">
+              چای ممتاز هندوستان
+              چای ممتاز ارل گری​
+              چای سيلان عطری​
+              چای ممتاز سيلان​
+              چای صبحانه گلستان​
+            </p>
+
+
+
+
+
+          </div>
+          <div
+            class=" mobail:w-full mobail:h-fit mx-auto px-1 desktop:pt-4  grid mobail:grid-flow-row  mobail:mx-auto bg-[#282828]">
+            <div><img class="mx-auto pb-[20px]  mobail:mx-auto" src="./img/footer-icon1.png" alt=""></div>
+            <div class="w-full h-[1px]  bg-[#4a4a4a]  mobail:mx-auto"></div>
+            <p class="text-center text-slate-50 p-[10px]">چای گلستان</p>
+            <div class="w-full h-[1px]  bg-[#4a4a4a]"></div>
+            <p class="w-[118px] h-[132px] text-[13px] leading-7 mx-auto pt-[10px] text-[#bcbec0]">
+              چای ممتاز هندوستان
+              چای ممتاز ارل گری​
+              چای سيلان عطری​
+              چای ممتاز سيلان​
+              چای صبحانه گلستان​
+            </p>
+
+
+
+
+
+          </div>
+          <p
+            class="pt-[60px]  text-[15px]  desktop:text-gray-500 mobail:text-[#7b7b7b] dark:text-[#7b7b7b]  w-full h-full mx-auto text-center">
+            All Right Reserved Golestan
+            Company 2022-2025</p>
+          <p class="text-[14px] text-[#7b7b7b] text-center mt-[0px] bg-[#282828]">Design By: Golestan Studio
+          </p>
+
+
+
+        </div>
+
+
+        <div class="w-[40px] h-[40px] mr-[1200px] bg-[#0a090941] mt-[-30px]   fixed  z-[999999999999] "> 
+          <a href="#"><div class="w-[30px] h-[30px] pt-[7px] pr-[8px] "><img class="w-[30px] h-[30px]  " src="./img/فلش بالا.png" alt=""></div></a>
+        </div>
+
+
+
+
+        <script>
+          let htmltag = document.querySelector("html");
+          let btn = document.querySelector("#btn");
+          btn.addEventListener("click", () => {
+            if (htmltag.classList.contains("dark")) {
+
+              htmltag.classList.remove("dark");
+              btn.innerHTML = "dark";
+            } else {
+              htmltag.classList.add("dark");
+              btn.innerHTML = "light";
+            }
+          })
+          let htmltagg = document.querySelector("html");
+          let btnn = document.querySelector("#btnn");
+          btnn.addEventListener("click", () => {
+            if (htmltag.classList.contains("dark")) {
+
+              htmltag.classList.remove("dark");
+              btnn.innerHTML = "dark";
+            } else {
+              htmltag.classList.add("dark");
+              btnn.innerHTML = "light";
+            }
+          })
+
+        </script>
+</body>
+
+</html>
